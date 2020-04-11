@@ -1,6 +1,6 @@
 {
   "name": "@fengx/pkg2",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "license": "MIT",
   "private": true,
@@ -9,6 +9,6 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "@fengx/pkg1": "^1.0.0"
+    "@fengx/pkg1": "^2.0.0"
   }
 }
