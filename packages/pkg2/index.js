@@ -1,2 +1,2 @@
-import { add } from "@fengx/pkg1";
-console.log(add(1, 2));
+import { addNumber } from "@fengx/pkg1";
+console.log(addNumber(1, 2));
