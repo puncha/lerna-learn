@@ -1,9 +1,0 @@
-{
-  "name": "@fengx/pkg3",
-  "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT",
-  "scripts": {
-    "start": "true"
-  }
-}
