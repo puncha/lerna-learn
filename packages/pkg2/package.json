@@ -1,12 +1,18 @@
 {
   "name": "@fengx/pkg2",
   "version": "1.0.1",
-  "main": "index.js",
+  "main": "dist/index",
+  "types": "dist/index",
+  "files": [
+    "dist"
+  ],
   "license": "MIT",
   "private": true,
-  "type": "module",
   "scripts": {
-    "start": "node index.js"
+    "start": "node ./dist/index",
+    "build": "yarn clean && yarn compile",
+    "clean": "rm -rf ./dist",
+    "compile": "tsc -p tsconfig.build.json"
   },
   "dependencies": {
     "@fengx/pkg1": "^2.0.0"

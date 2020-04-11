@@ -1,0 +1,10 @@
+{
+  "extends": "./tsconfig.build",
+  "compilerOptions": {
+    "baseUrl": "./packages",
+    "paths": {
+      "@fengx/pkg1": ["pkg1/src"],
+      "@fengx/pkg2": ["pkg2/src"]
+    }
+  }
+}
